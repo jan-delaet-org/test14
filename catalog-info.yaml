@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test14"
+  annotations:
+    github.com/project-slug: jan-delaet-org/test14
+    backstage.io/kubernetes-id: "test14"
+    backstage.io/kubernetes-namespace: "test14"
+    backstage.io/kubernetes-cluster: aks-pe-poc-01
+    azure.com/tag-selector: backstage-entity-id/test14
+spec:
+  type: service
+  owner: group:cloud-native
+  lifecycle: experimental
